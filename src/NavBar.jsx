@@ -1,30 +1,21 @@
-import React, { useState } from 'react';
-import './NavBar.css'; // Import CSS file for styling
+import './NavBar.css'
 
 function NavBar() {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const toggleMenu = () => {
-    setIsOpen(!isOpen);
-  };
-
-  return (
-    <div className="nav-bar">
-      <div className={`hamburger ${isOpen ? 'open' : ''}`} onClick={toggleMenu}>
-        <div className="line"></div>
-        <div className="line"></div>
-        <div className="line"></div>
+  return(
+    <>
+    <nav>
+      <div>
+        <ul id = "navbar">
+          <li><a href="#/Home">Home</a></li>
+          <li><a href="#/Poetry">Poetry</a></li>
+          <li><a href="#/Songs">Songwriting</a></li>
+          <li><a href="#/Visual">Visual Art</a></li>
+          <li><a href="#/Demos">Demos</a></li>
+        </ul>
       </div>
-      {isOpen && (
-        <div className="menu-items">
-          <a href="#">Home</a>
-          <a href="#">About</a>
-          <a href="#">Services</a>
-          <a href="#">Contact</a>
-        </div>
-      )}
-    </div>
-  );
+    </nav>
+    </>
+  )
 }
 
 export default NavBar;

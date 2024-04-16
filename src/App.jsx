@@ -5,7 +5,7 @@ import Poetry from "./pages/Poetry"
 import Songs from "./pages/Songs"
 import Visual from "./pages/Visual"
 import Demos from "./pages/Demos"
-import { HashRouter } from 'react-router-dom'
+import { Routes, Route, HashRouter } from 'react-router-dom';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -29,4 +29,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
