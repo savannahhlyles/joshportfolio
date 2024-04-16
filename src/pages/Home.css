@@ -1,0 +1,26 @@
+@font-face {
+    font-family: Arsenica;
+    src: url("Arsenica.ttf");
+}
+
+@font-face {
+    font-family: Roboto-Lt;
+    src: url("Roboto-Light.ttf");
+}
+
+.home-container h1 {
+    font-family: "Arsenica";
+    font-size: 100px;
+    background: linear-gradient(to bottom, #e0f7d9, #9db799);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: -7px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.tagline {
+    font-family: "Roboto-Lt";
+    font-size: 50px;
+    color: #badab6;
+    text-shadow: -7px 2px 4px rgba(0, 0, 0, 0.5);
+}

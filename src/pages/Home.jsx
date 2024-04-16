@@ -6,6 +6,9 @@ function Home() {
   return (
     <div className="home-container">
       <h1>Joshua Belk</h1>
+      <p className="tagline">
+        Musician Poet Storyteller
+      </p>
     </div>
   );
 }
