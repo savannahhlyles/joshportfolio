@@ -16,7 +16,7 @@
 .home-container {
     display: flex;
     flex-direction: column;
-    text-align: center; /* Center text horizontally */
+    text-align: center;
 }
 
 .home-container h1 {
@@ -35,6 +35,7 @@
     display: flex;
     flex-direction: row;
     margin: auto;
+    text-align: center;
 }
 
 .tagline p {
