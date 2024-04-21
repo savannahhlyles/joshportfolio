@@ -48,3 +48,13 @@
     text-shadow: -7px 2px 4px rgba(0, 0, 0, 0.5);
     margin-right: 100px;
 }
+
+.bio p {
+    font-family: "Raleway";
+    font-size: 50px;
+    background: linear-gradient(to bottom, #e0f7d9, #9db799);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: -7px 2px 4px rgba(0, 0, 0, 0.5);
+}
