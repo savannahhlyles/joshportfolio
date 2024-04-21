@@ -68,4 +68,36 @@
     background-clip: text;
     color: transparent;
     text-shadow: -7px 2px 4px rgba(0, 0, 0, 0.5);
+    margin: 0;
+    text-align: center;
+    margin: 20px;
+}
+
+#bio1 {
+    width: 50%;
+    float: left;
+}
+
+#bio2 {
+    width: 50%;
+    float: right;
+    clear: both;
+}
+
+#bio3 {
+    width: 50%;
+    float: left;
+    clear: both;
+}
+
+.bio-image {
+    max-width: 500px; /* Set the maximum width of the image */
+    max-height: 500px; /* Set the maximum height of the image */
+    width: auto; /* Allow the image to scale proportionally */
+    height: auto; /* Allow the image to scale proportionally */
+    margin-right: 20px; /* Add margin to the right of the image for spacing */
+}
+
+.bio-container {
+    position: relative;
 }
