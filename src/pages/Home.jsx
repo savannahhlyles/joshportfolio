@@ -1,7 +1,7 @@
 // Home.js
 import React from 'react';
 import './Home.css'; 
-import headerImg from "/Users/savannahlyles/Documents/workspace/joshportfolio/public/images/background.jpg";
+import headerImg from "/images/background.jpg";
 
 function Home() {
   return (
