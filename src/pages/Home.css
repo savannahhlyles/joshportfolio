@@ -76,18 +76,21 @@
 #bio1 {
     width: 50%;
     float: left;
+    margin-top: 150px;
 }
 
 #bio2 {
     width: 50%;
     float: right;
     clear: both;
+    margin-top: 100px;
 }
 
 #bio3 {
     width: 50%;
     float: left;
     clear: both;
+    margin-top: 100px;
 }
 
 .bio-image {
@@ -96,11 +99,12 @@
     width: auto; 
     height: auto;
     display: inline-block;
+    margin-left: 5.5%;
 }
 
 .bio-container {
     position: relative;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 #box1 {
@@ -109,8 +113,8 @@
     width: 500px;
     height: 500px;
     position: absolute; /* Position the box absolutely within the bio-container */
-    top: -3%;
-    left: 54%; /* Adjust position from left */
+    top: -3.5%;
+    left: 60%; /* Adjust position from left */
 }
 
 #box2 {
@@ -121,5 +125,5 @@
     border: 6px solid rgb(14, 23, 23);
     position: absolute; /* Position the box absolutely within the bio-container */
     top: 3%;
-    left: 51%; /* Adjust position from left */
+    left: 56%; /* Adjust position from left */
 }
