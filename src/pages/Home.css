@@ -91,13 +91,35 @@
 }
 
 .bio-image {
-    max-width: 500px; /* Set the maximum width of the image */
-    max-height: 500px; /* Set the maximum height of the image */
-    width: auto; /* Allow the image to scale proportionally */
-    height: auto; /* Allow the image to scale proportionally */
-    margin-right: 20px; /* Add margin to the right of the image for spacing */
+    max-width: 500px; 
+    max-height: 500px; 
+    width: auto; 
+    height: auto;
+    display: inline-block;
 }
 
 .bio-container {
     position: relative;
+    margin-top: 50px;
+}
+
+#box1 {
+    background-image: radial-gradient(circle, #b7cbb1, #849180);
+    z-index: -1;
+    width: 500px;
+    height: 500px;
+    position: absolute; /* Position the box absolutely within the bio-container */
+    top: -3%;
+    left: 54%; /* Adjust position from left */
+}
+
+#box2 {
+    background-color: #e0f7d900;
+    z-index: 4;
+    width: 500px;
+    height: 500px;
+    border: 6px solid rgb(14, 23, 23);
+    position: absolute; /* Position the box absolutely within the bio-container */
+    top: 3%;
+    left: 51%; /* Adjust position from left */
 }

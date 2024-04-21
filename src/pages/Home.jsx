@@ -26,6 +26,8 @@ function Home() {
         </div>
 
         <div className="bio-container">
+            <div id="box1"></div>
+            <div id="box2"></div>
             <div className="bio">
               <img src={bioImg} alt="Bio Image" className="bio-image" />
                 <p id="bio1">
