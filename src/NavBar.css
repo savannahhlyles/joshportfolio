@@ -1,7 +1,13 @@
+@font-face {
+  font-family: Raleway;
+  src: url("/fonts/Raleway-Regular.ttf");
+}
+
 .menu-container {
     position: fixed;
     top: 20px; /* Adjust as needed */
     right: 20px; /* Adjust as needed */
+    z-index: 3;
   }
   
   .kebab-menu {
@@ -16,30 +22,16 @@
   .bar {
     width: 24px;
     height: 2px;
-    background-color: #ffffff; /* Default bar color */
-    transition: transform 0.3s ease;
+    background-color: #e6f8e1;
   }
   
-  .kebab-menu.open .bar:nth-child(1) {
-    transform: translateY(8px) rotate(45deg);
-  }
-  
-  .kebab-menu.open .bar:nth-child(2) {
-    opacity: 0;
-  }
-  
-  .kebab-menu.open .bar:nth-child(3) {
-    transform: translateY(-8px) rotate(-45deg);
-  }
-  
-  /* Cream color for the menu items */
   .navbar {
     display: none;
     position: absolute;
     list-style-type: none;
     padding: 10px;
     border-radius: 5px;
-    right: 0; /* Align menu to the right of the kebab menu */
+    right: 0;
   }
   
   .kebab-menu.open + .navbar {
@@ -47,6 +39,12 @@
   }
   
   .navbar a {
-    color: #ffffff; /* White color */
-    text-decoration: none; /* Remove underline */
+    color: #e6f8e1;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: "Raleway";
+  }
+
+  .navbar a:hover {
+    color: #9db799;
   }
