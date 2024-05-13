@@ -32,14 +32,14 @@ function Home() {
                 <br></br>with a minor in music production at the
                 <br></br><a href="https://www.scad.edu/" target="_blank" id="scad"> Savannah College of Art and Design.</a> 
                 <br></br>Through this program, I am actively refining
-                my expertise in the field.
+                <br></br>my expertise in the field.
             </p>
             <p id="bio2">
                 I've crafted songs and poetry since childhood, 
                 <br></br>drawing inspiration from my surroundings. Now, I'm 
                 <br></br><span id="emphasis">recording and mixing,</span>
-                blending melodies with guitar and banjo, 
-                reflecting natural motifs with metaphorical depth.
+                <br></br>blending melodies with guitar and banjo, 
+                <br></br>reflecting natural motifs with metaphorical depth.
             </p>
             <p id="bio3">
                 Join me on this journey as we explore the realms of
@@ -47,7 +47,6 @@ function Home() {
                 <br></br>together.
             </p>
           </div>
-            {/* <div className="box1"></div> */}
         </div>
         
     </div>

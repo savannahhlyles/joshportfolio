@@ -61,17 +61,21 @@
     margin: 0;
 }
 
+.bio {
+    overflow: hidden;
+}
+
 .bio p {
     font-family: "Raleway";
     font-size: 30px;
-    margin: 0;
     margin: 20px;
     color: #e0f7d9;
+    overflow: hidden;
 }
 
 .bio-container {
     position: relative;
-    margin-top: 50px;
+    margin-top: 40px;
     overflow: hidden;
 }
 
@@ -80,7 +84,6 @@
     z-index: -1;
     width: 100vw;
     height: 430px;
-    position: absolute;
     transform: translateY(82%);
 }
 
