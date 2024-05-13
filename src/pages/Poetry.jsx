@@ -1,9 +1,10 @@
 import React from 'react';
-import './Poetry.css'; // Import the CSS file
-import poetryImg from "/images/poetry.png";
 
 function Poetry() {
   return (
+    <div>
+      <h1>Poetry</h1>
+    </div>
   );
 }
 

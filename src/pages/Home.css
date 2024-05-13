@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: Arsenica;
     src: url("/fonts/Arsenica.ttf");
@@ -63,67 +64,56 @@
 .bio p {
     font-family: "Raleway";
     font-size: 30px;
-    background: linear-gradient(to bottom, #e0f7d9, #9db799);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    text-shadow: -7px 2px 4px rgba(0, 0, 0, 0.5);
     margin: 0;
-    text-align: center;
     margin: 20px;
-}
-
-#bio1 {
-    width: 50%;
-    float: left;
-    margin-top: 150px;
-}
-
-#bio2 {
-    width: 50%;
-    float: right;
-    clear: both;
-    margin-top: 100px;
-}
-
-#bio3 {
-    width: 50%;
-    float: left;
-    clear: both;
-    margin-top: 100px;
-}
-
-.bio-image {
-    max-width: 500px; 
-    max-height: 500px; 
-    width: auto; 
-    height: auto;
-    display: inline-block;
-    margin-left: 5.5%;
+    color: #e0f7d9;
 }
 
 .bio-container {
     position: relative;
-    margin-top: 100px;
+    margin-top: 50px;
+    overflow: hidden;
 }
 
-#box1 {
-    background-image: radial-gradient(circle, #b7cbb1, #849180);
+.box1 {
+    background-color: #9db799;
     z-index: -1;
-    width: 500px;
-    height: 500px;
-    position: absolute; /* Position the box absolutely within the bio-container */
-    top: -3.5%;
-    left: 60%; /* Adjust position from left */
+    width: 100vw;
+    height: 430px;
+    position: absolute;
+    transform: translateY(82%);
 }
 
-#box2 {
-    background-color: #e0f7d900;
-    z-index: 4;
-    width: 500px;
-    height: 500px;
-    border: 6px solid rgb(14, 23, 23);
-    position: absolute; /* Position the box absolutely within the bio-container */
-    top: 3%;
-    left: 56%; /* Adjust position from left */
+#scad {
+    background: linear-gradient(to right, #d8e8d6, #1f6534);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    transition: text-shadow 0.5s ease;
+    text-decoration: none;
+    font-size: 45px;
+}
+
+#scad:hover {
+    text-shadow: 0 0 2px #fff, 0 0 10px #fff, 0 0 10px #fff, 0 0 10px #7afca1, 0 0 10px #7afca1, 0 0 10px #7afca1, 0 0 10px #7afca1, 0 0 10px #7afca1;
+}
+
+#emphasis {
+    background: linear-gradient(to right, #d8e8d6, #1f6534);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    transition: text-shadow 0.5s ease;
+    text-decoration: none;
+    font-size: 45px;
+}
+
+#bio2 {
+    margin-top: 60px;
+    text-align: right;
+}
+
+#bio3 {
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
