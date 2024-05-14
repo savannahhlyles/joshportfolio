@@ -120,7 +120,7 @@
 }
 
 #bio3 {
-    margin-top: 160px;
+    margin-top: 180px;
     margin-left: 80px;
 }
 
@@ -141,7 +141,7 @@
 #leaf3 {
     max-width: 500px;
     position: absolute;
-    top: 78%; /* Adjust positioning */
+    top: 77%; /* Adjust positioning */
     left: 58%; /* Adjust positioning */
     padding-bottom: 40px;
 }
