@@ -1,13 +1,13 @@
 import React, { useEffect } from 'react'; // Import useEffect from React
 
 import './Home.css'; 
-import headerImg from "/images/background.jpg";
-import leaf1 from "/images/leaf1.png";
-import leaf2 from "/images/leaf2.png";
-import leaf3 from "/images/leaf3.png";
-import linkedin from "/images/linkedin.png";
-import phone from "/images/phone.png";
-import email from "/images/email.png";
+import headerImg from "/background.jpg";
+import leaf1 from "/leaf1.png";
+import leaf2 from "/leaf2.png";
+import leaf3 from "/leaf3.png";
+import linkedin from "/linkedin.png";
+import phone from "/phone.png";
+import email from "/email.png";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
