@@ -2,11 +2,16 @@
 import React from 'react';
 import './Home.css'; 
 import headerImg from "/images/background.jpg";
-import bioImg from "/images/bio.jpg";
+import leaf1 from "/images/leaf1.png";
+import leaf2 from "/images/leaf2.png";
+import leaf3 from "/images/leaf3.png";
+import linkedin from "/images/linkedin.png";
+import phone from "/images/phone.png";
+import email from "/images/email.png";
 
 function Home() {
   return (
-    <div>
+    <div className="outerbox">
 
         <div className="image-container">
         <img src={headerImg} alt="Header Image" />
@@ -46,6 +51,19 @@ function Home() {
                 <br></br> <span id="emphasis">artistry and expression</span>
                 <br></br>together.
             </p>
+            <img src={leaf1} alt="Leaf" id="leaf1"/>
+            <img src={leaf2} alt="Leaf" id="leaf2"/>
+            <img src={leaf3} alt="Leaf" id="leaf3"/>
+
+            <a href="tel:+8035773092">
+            <img src={phone} alt="Phone" id="phone"/>
+            </a>
+            <a href="mailto:joshuabelk1@icloud.com">
+            <img src={email} alt="Email" id="email"/>
+            </a>
+            <a href="https://www.linkedin.com/in/joshua-belk-6907aa299/" target="_blank">
+            <img src={linkedin} alt="LinkedIn" id="linked"/>
+            </a>
           </div>
         </div>
         

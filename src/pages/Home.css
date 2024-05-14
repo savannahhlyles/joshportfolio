@@ -11,6 +11,7 @@
 
 .image-container {
     position: relative;
+    overflow: hidden;
 }
 
 .image-container img {
@@ -24,6 +25,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    overflow: hidden;
 }
 
 .name-container {
@@ -68,7 +70,7 @@
 .bio p {
     font-family: "Raleway";
     font-size: 30px;
-    margin: 20px;
+    margin: 50px;
     color: #e0f7d9;
     overflow: hidden;
 }
@@ -76,15 +78,7 @@
 .bio-container {
     position: relative;
     margin-top: 40px;
-    overflow: hidden;
-}
-
-.box1 {
-    background-color: #9db799;
-    z-index: -1;
-    width: 100vw;
-    height: 430px;
-    transform: translateY(82%);
+    margin-right: 0;
 }
 
 #scad {
@@ -95,6 +89,7 @@
     transition: text-shadow 0.5s ease;
     text-decoration: none;
     font-size: 45px;
+    margin-right: 0;
 }
 
 #scad:hover {
@@ -111,12 +106,62 @@
     font-size: 45px;
 }
 
+#bio1 {
+    text-align: left;
+    margin-top: 90px;
+    margin-left: 80px;
+}
+
 #bio2 {
-    margin-top: 60px;
+    margin-top: 200px;
     text-align: right;
+    margin-bottom: -20px;
+    margin-right: 80px;
 }
 
 #bio3 {
-    margin-top: 60px;
-    margin-bottom: 60px;
+    margin-top: 160px;
+    margin-left: 80px;
+}
+
+#leaf1 {
+    max-width: 500px;
+    position: absolute; 
+    top: -5%;
+    left: 60%; /* Adjust positioning */
+}
+
+#leaf2 {
+    max-width: 500px;
+    position: absolute; 
+    top: 34%; /* Adjust positioning */
+    left: 6%; /* Adjust positioning */
+}
+
+#leaf3 {
+    max-width: 500px;
+    position: absolute;
+    top: 78%; /* Adjust positioning */
+    left: 58%; /* Adjust positioning */
+    padding-bottom: 40px;
+}
+
+#phone {
+    max-width: 100px;
+    left: 10%;
+    position: absolute;
+}
+
+#email {
+    max-width: 140px;
+    margin: 20px;
+    position: absolute;
+    left: 22%;
+    top: 97%;
+}
+
+#linked {
+    max-width: 100px;
+    position: absolute;
+    left: 40%;
 }
