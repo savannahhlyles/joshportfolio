@@ -4,47 +4,71 @@
 }
 
 .menu-container {
-    position: fixed;
-    top: 20px; /* Adjust as needed */
-    right: 20px; /* Adjust as needed */
-    z-index: 3;
-  }
-  
-  .kebab-menu {
-    cursor: pointer;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 24px;
-    width: 24px;
-  }
-  
-  .bar {
-    width: 24px;
-    height: 2px;
-    background-color: #e6f8e1;
-  }
-  
-  .navbar {
-    display: none;
-    position: absolute;
-    list-style-type: none;
-    padding: 10px;
-    border-radius: 5px;
-    right: 0;
-  }
-  
-  .kebab-menu.open + .navbar {
-    display: block;
-  }
-  
-  .navbar a {
-    color: #e6f8e1;
-    font-size: 20px;
-    text-decoration: none;
-    font-family: "Raleway";
-  }
+  position: fixed;
+  top: 20px; /* Adjust as needed */
+  right: 20px; /* Adjust as needed */
+  z-index: 3;
+}
 
-  .navbar a:hover {
-    color: #9db799;
+.kebab-menu {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 24px;
+  width: 24px;
+}
+
+.bar {
+  width: 24px;
+  height: 2px;
+  background-color: #e6f8e1;
+}
+
+.navbar {
+  display: none;
+  position: absolute;
+  list-style-type: none;
+  padding: 10px;
+  border-radius: 5px;
+  right: 0;
+}
+
+.kebab-menu.open + .navbar {
+  display: block;
+  animation: slideDown 0.5s forwards;
+}
+
+@keyframes slideDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
   }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.navbar a {
+  color: #e6f8e1;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: "Raleway";
+  animation: fadeIn 0.5s forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.navbar a:hover {
+  color: #9db799;
+}
