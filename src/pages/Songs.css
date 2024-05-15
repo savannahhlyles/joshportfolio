@@ -11,3 +11,105 @@
     white-space: nowrap;
     text-align: center;
 }
+
+#title1 {
+    font-family: "Raleway";
+    font-size: 60px;
+    color: #e0f7d9;
+    text-shadow: -4px 4px 4px rgba(0, 0, 0, 0.5);
+    margin: 60px;
+    position: absolute;
+    top: 230px;
+    left: 100px;
+}
+#title2 {
+    font-family: "Raleway";
+    font-size: 60px;
+    color: #e0f7d9;
+    text-shadow: -4px 4px 4px rgba(0, 0, 0, 0.5);
+    margin: 60px;
+    position: absolute;
+    top: 1225px;
+    left: 100px;
+}
+#title3 {
+    font-family: "Raleway";
+    font-size: 60px;
+    color: #e0f7d9;
+    text-shadow: -4px 4px 4px rgba(0, 0, 0, 0.5);
+    margin: 60px;
+    position: absolute;
+    top: 2210px;
+    left: 100px;
+}
+
+#chords1 {
+    font-family: "Raleway";
+    font-size: 20px;
+    color: #e0f7d9;
+    text-shadow: -4px 4px 4px rgba(0, 0, 0, 0.5);
+    margin: 60px;
+    position: absolute;
+    top: 335px;
+    left: 100px;
+}
+#chords2 {
+    font-family: "Raleway";
+    font-size: 20px;
+    color: #e0f7d9;
+    text-shadow: -4px 4px 4px rgba(0, 0, 0, 0.5);
+    margin: 60px;
+    position: absolute;
+    top: 1320px;
+    left: 100px;
+}
+#chords3 {
+    font-family: "Raleway";
+    font-size: 20px;
+    color: #e0f7d9;
+    text-shadow: -4px 4px 4px rgba(0, 0, 0, 0.5);
+    margin: 60px;
+    position: absolute;
+    top: 2400px;
+    left: 100px;
+}
+
+#song1 {
+    font-family: "Raleway";
+    font-size: 30px;
+    color: #e0f7d9;
+    text-shadow: -4px 4px 4px rgba(0, 0, 0, 0.5);
+    margin: 60px;
+    position: absolute;
+    right: 60px;
+    top: 250px;
+}
+#song2 {
+    font-family: "Raleway";
+    font-size: 30px;
+    color: #e0f7d9;
+    text-shadow: -4px 4px 4px rgba(0, 0, 0, 0.5);
+    margin: 60px;
+    position: absolute;
+    top: 1240px;
+    right: 80px;
+}
+#song3 {
+    font-family: "Raleway";
+    font-size: 30px;
+    color: #e0f7d9;
+    text-shadow: -4px 4px 4px rgba(0, 0, 0, 0.5);
+    margin: 60px;
+    position: absolute;
+    top: 2220px;
+    right: 10px;
+    padding-bottom: 30px;
+}
+
+.songs img {
+    width: 100vw;
+    height: 230px;
+    position: absolute;
+    top: 0;
+    z-index: -3;
+}

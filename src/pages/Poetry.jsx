@@ -3,6 +3,7 @@ import './Poetry.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import border from "/border.png";
+import header1 from "/header1.jpg";
 
 function Poetry() {
   useEffect(() => {
@@ -11,6 +12,7 @@ function Poetry() {
   }, []);
   
   return (
+    <div>
     <div className="poetry">
       <h1>Poetry</h1>
 
@@ -211,7 +213,10 @@ function Poetry() {
       <br></br>where harm is distant
       <br></br>and sing my jagged songs of love.
       </p>
-
+    </div>
+    <div>
+    <img src={header1} alt="Header" id="header1poet" />
+    </div>
     </div>
   );
 }
