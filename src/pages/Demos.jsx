@@ -11,7 +11,7 @@ function Demos() {
   return (
     <div className="demos">
       <h1>Demos</h1>
-      <p>Coming soon!</p>
+      <p data-aos="fade-up">Coming soon!</p>
     </div>
   );
 }
