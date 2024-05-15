@@ -1,5 +1,4 @@
-import React, { useEffect } from 'react'; // Import useEffect from React
-
+import React, { useEffect } from 'react';
 import './Home.css'; 
 import headerImg from "/background.jpg";
 import leaf1 from "/leaf1.png";

@@ -58,7 +58,7 @@
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
-    text-shadow: -7px 2px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: -4px 4px 4px rgba(0, 0, 0, 0.5);
     text-align: center;
     margin: 0;
 }
@@ -73,6 +73,7 @@
     margin: 50px;
     color: #e0f7d9;
     overflow: hidden;
+    text-shadow: -4px 4px 4px rgba(0, 0, 0, 0.5);
 }
 
 .bio-container {
