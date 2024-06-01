@@ -1,4 +1,4 @@
-import './App.css';
+
 import Home from "./pages/Home";
 import Poetry from "./pages/Poetry";
 import Songs from "./pages/Songs";
